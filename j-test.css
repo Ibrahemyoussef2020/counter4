@@ -153,23 +153,7 @@ span{
 
 }
 
-@media only screen and (max-width:470px) {
- 
-   #bot{
 
-   	   height:100px;
-	   width: 100px;
-   }
-
-   
-
-   button{
-       
-       width: 45px;
-	  height: 45px;
-   }
-
-}
 
 @media only screen and (max-width:370px) {
  
