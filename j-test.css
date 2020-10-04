@@ -66,9 +66,10 @@ body, * {
 	height: 60px;
 	padding-left: 10px; 
 	min-width: 110px;
-	font-size: 30px;
+	font-size: 3.5rem;
 	font-weight: 900;
 	line-height: 3.5rem;
+	text-align: center;
 	
 
 	
@@ -86,6 +87,14 @@ body, * {
 	font-weight: 900;
 
 }
+
+.sp{
+
+  	text-align: right;
+  
+  	
+
+  }
 
  
 
@@ -111,8 +120,8 @@ button{
 
 	border-radius: 100%;
 	border: none;
-	width: 65px;
-	height: 65px;
+	width: 55px;
+	height: 55px;
 	margin-top: 5px;
 	background: #00FF00;
 	
@@ -147,8 +156,35 @@ span{
 	   width: 120px;
    }
 
-   #body{
-   	 width: 70%;
+   #container{
+
+   	  width: 70%;
+   }
+
+   .sun{
+   	 
+   	 min-height:  400px
+   }
+
+}
+
+@media only screen and (max-width:600px) {
+ 
+   #bot{
+
+   	   height:120px;
+	   width: 120px;
+   }
+
+   #container{
+
+   	  width: 80%;
+   }
+
+    button{
+       
+       width: 50px;
+	  height: 50px;
    }
 
 }
@@ -163,11 +199,7 @@ span{
 	   width: 90px;
    }
 
-      button{
-       
-       width: 45px;
-	  height: 45px;
-   }
+    
 
    .container{
 
@@ -175,11 +207,7 @@ span{
    	padding-left: 10px;
    }
 
-  .container section:last-child  {
-
-  	text-align: center;
-
-  }
+  
 
   #screen{
   	height: auto;
