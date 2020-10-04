@@ -1,0 +1,202 @@
+body{
+
+	background: #ddd;
+
+
+
+}
+
+body, * {
+
+	
+	box-sizing: border-box;
+	-o-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+
+
+#body{
+
+
+	
+	width:50%;
+	min-width: 150px;
+	background: #080;
+	margin:50px auto;
+	padding: 10px;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 80px;
+	border-top-right-radius: 80px;
+}
+
+
+.sun{
+
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
+	background: #000;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 80px;
+	border-top-right-radius: 80px;
+
+}
+
+
+#screen{
+    
+    
+	display: block;
+	background: #eee;
+	width: 90%;
+	height: 60px;
+	padding-left: 10px; 
+	min-width: 110px;
+	font-size: 30px;
+	font-weight: 900;
+	line-height: 3.2rem;
+	
+
+	
+}
+
+.container{
+ 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+	min-width: 130px;
+	padding:5px;
+	padding-right: 0;
+	color: #fff;
+	font-weight: 900;
+
+}
+
+ 
+
+
+#bot{
+    
+    
+	display: block;
+	height:200px;
+	width: 200px;
+	min-width: 60px;
+	min-height: 60px;
+	background: #fff;	
+	border-radius:100% ;
+	background: #00FF00;
+
+
+	
+}
+
+button{
+
+
+	border-radius: 100%;
+	border: none;
+	width: 60px;
+	height: 60px;
+	margin-top: 5px;
+	background: #00FF00;
+	
+}
+
+
+span{
+	display: block;
+}
+
+
+
+/*****************************************************/
+
+@media only screen and (max-width: 770px) {
+ 
+   #bot{
+
+   	   height:150px;
+	   width: 150px;
+   }
+
+  
+
+}
+
+@media only screen and (max-width:570px) {
+ 
+   #bot{
+
+   	   height:120px;
+	   width: 120px;
+   }
+
+   #body{
+   	 width: 60%;
+   }
+
+}
+
+@media only screen and (max-width:470px) {
+ 
+   #bot{
+
+   	   height:100px;
+	   width: 100px;
+   }
+
+   
+
+   button{
+       
+       width: 45px;
+	  height: 45px;
+   }
+
+}
+
+@media only screen and (max-width:370px) {
+ 
+   #bot{
+
+   	   height:80px;
+	   width: 80px;
+   }
+
+      button{
+       
+       width: 35px;
+	  height: 35px;
+   }
+
+   .container{
+
+   	padding-right: 5px;
+   	padding-left: 10px;
+   }
+
+  .container section:last-child  {
+
+  	text-align: center;
+
+  }
+
+  #screen{
+  	height: auto;
+  }
+  
+}
+
+.dark-mode {
+  background-color: black;
+  
+}
+
+
