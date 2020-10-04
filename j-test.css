@@ -1,6 +1,8 @@
 body{
 
 	background: #ddd;
+	position: relative;
+	
 
 
 
@@ -24,15 +26,17 @@ body, * {
 
 
 	
-	width:70%;
+	width:50%;
 	min-width: 150px;
 	background: #080;
-	margin:400px auto;
+	margin:500px auto;
 	padding: 10px;
 	border-bottom-left-radius: 50%;
 	border-bottom-right-radius: 50%;
 	border-top-left-radius: 80px;
 	border-top-right-radius: 80px;
+	
+
 
 }
 
@@ -49,7 +53,7 @@ body, * {
 	border-bottom-right-radius: 50%;
 	border-top-left-radius: 80px;
 	border-top-right-radius: 80px;
-     min-height: 650px;
+    
 }
 
 
@@ -144,7 +148,7 @@ span{
    }
 
    #body{
-   	 width: 90%;
+   	 width: 70%;
    }
 
 }
