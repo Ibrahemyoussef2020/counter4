@@ -27,7 +27,7 @@ body, * {
 	width:70%;
 	min-width: 150px;
 	background: #080;
-	margin:200px auto;
+	margin:400px auto;
 	padding: 10px;
 	border-bottom-left-radius: 50%;
 	border-bottom-right-radius: 50%;
@@ -49,7 +49,7 @@ body, * {
 	border-bottom-right-radius: 50%;
 	border-top-left-radius: 80px;
 	border-top-right-radius: 80px;
-     min-height: 450px;
+     min-height: 650px;
 }
 
 
