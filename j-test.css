@@ -124,8 +124,8 @@ button{
 
 	border-radius: 100%;
 	border: none;
-	width: 55px;
-	height: 55px;
+	width: 65px;
+	height: 65px;
 	margin-top: 5px;
 	background: #00FF00;
 	
@@ -148,7 +148,13 @@ span{
 	   width: 150px;
    }
 
-  
+    #body{
+
+   	  width: 95%;
+
+   	 
+   	 
+   }
 
 }
 
@@ -160,13 +166,7 @@ span{
 	   width: 120px;
    }
 
-   #body{
-
-   	  width: 90%;
-
-   	 
-   	 
-   }
+ 
    
 
  
