@@ -33,7 +33,7 @@ body, * {
 	border-bottom-right-radius: 50%;
 	border-top-left-radius: 80px;
 	border-top-right-radius: 80px;
-	margin-top: 15px;
+	margin-top: 50px;
 
 	
 
@@ -86,21 +86,21 @@ body, * {
     justify-content: space-between;
     width: 100%;
 	min-width: 130px;
-	padding:5px;
-	padding-right: 0;
+	padding: 5px 0 5px 0;
 	color: #fff;
 	font-weight: 900;
-	font-size: 30px;
+	font-size: 25px;
+	margin-top: -45px;
 
 }
 
-.sp{
+   .sp{
 
   	text-align: right;
   
-  	
-
   }
+
+
 
  
 
@@ -109,8 +109,8 @@ body, * {
     
     
 	display: block;
-	height:200px;
-	width: 200px;
+	height:150px;
+	width: 150px;
 	background: #fff;	
 	border-radius:100% ;
 	background: #00FF00;
@@ -127,14 +127,12 @@ button{
 	width: 80px;
 	height: 80px;
 	background: #00FF00;
-	margin-top: 20px
+	
 	
 }
 
 
-span{
-	display: block;
-}
+
 
 
 
@@ -145,37 +143,107 @@ span{
 
    #body{
 
-   	width:80%;
+   	width:90%;
    }
    
 
 }
 
-
-
-
-
 @media only screen and (max-width:370px) {
- 
 
 
+  #bot{
     
+    
+	display: block;
+	height:120px;
+	width: 120px;
+
+
+}
+
+button{
+
+	width: 60px;
+	height: 60px;
+}
+
 
    .container{
 
-   	padding-right: 5px;
-   	padding-left: 10px;
+   	padding-right: 0px;
+   	padding-left: 0px;
+   	font-size: 22px
    }
 
+
+   
+   
+   .sp{
+
+  	text-align: right;
   
+  }
 
 
-  
+
+}  
+
+
+@media only screen and (max-width:370px) {
+
+
+  #bot{
+    
+    
+	display: block;
+	height:100px;
+	width: 100px;
+
+
 }
 
+button{
+
+	width: 50px;
+	height: 50px;
+}
+
+
+   .container{
+
+   	padding-right: 0px;
+   	padding-left: 0px;
+   	font-size: 17px;
+
+   }
+
+
+   
+   
+   .sp{
+
+  	text-align: right;
+  
+  }
+
+
+
+} 
+
+/*************************/
 .dark-mode {
   background-color: black;
   
 }
+
+span:not(#bot) {
+
+	display: block;
+	margin-bottom: 5px;
+
+}
+
+
 
 
