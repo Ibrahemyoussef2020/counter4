@@ -24,7 +24,7 @@ body, * {
 
 	
 	
-	width: 50%;
+	width: 70%;
 	background: #080;
 	margin:0px auto;
 	padding: 10px;
@@ -153,7 +153,7 @@ span{
 
    #body{
 
-   	width:95%;
+   	width:100%;
    }
 
 }
@@ -166,14 +166,14 @@ span{
 
   #bot{
 
-   	   height:120px;
-	   width: 120px;
+   	   height:200px;
+	   width: 200px;
    }
 
     button{
        
-       width: 55px;
-	  height: 55px;
+       width: 70px;
+	  height: 70px;
    }
 
 }
