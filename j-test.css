@@ -70,11 +70,12 @@ body, * {
     
 	display: block;
 	background: #eee;
-	width: 80%;
+	width: 90%;
 	height: 60px;
 	padding-left: 10px; 
 	min-width: 110px;
-	font-size: 3rem;
+	font-size: 3.5rem;
+	line-height: 3.5rem;
 	font-weight: 900;
 	text-align: center;
 	
@@ -125,8 +126,8 @@ button{
 
 	border-radius: 100%;
 	border: none;
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	background: #00FF00;
 	margin-top: 5px
 	
