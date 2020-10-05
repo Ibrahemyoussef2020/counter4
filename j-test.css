@@ -25,7 +25,7 @@ body, * {
 
 	
 	
-	width: 70%;
+	width: 50%;
 	background: #080;
 	margin:0px auto;
 	padding: 10px;
@@ -33,7 +33,7 @@ body, * {
 	border-bottom-right-radius: 50%;
 	border-top-left-radius: 80px;
 	border-top-right-radius: 80px;
-	margin-top: 200px;
+	margin-top: 15px;
 
 	
 
@@ -55,7 +55,6 @@ body, * {
 	border-bottom-right-radius: 50%;
 	border-top-left-radius: 80px;
 	border-top-right-radius: 80px;
-	
 	width: 100%;
 	
 
@@ -73,7 +72,7 @@ body, * {
 	width: 90%;
 	padding-left: 10px; 
 	min-width: 110px;
-	font-size: 5.5rem;
+	font-size: 3.5rem;
 	font-weight: 900;
 	text-align: center;
 	
@@ -91,7 +90,7 @@ body, * {
 	padding-right: 0;
 	color: #fff;
 	font-weight: 900;
-	font-size: 50px;
+	font-size: 30px;
 
 }
 
@@ -110,8 +109,8 @@ body, * {
     
     
 	display: block;
-	height:300px;
-	width: 300px;
+	height:200px;
+	width: 200px;
 	background: #fff;	
 	border-radius:100% ;
 	background: #00FF00;
@@ -125,8 +124,8 @@ button{
 
 	border-radius: 100%;
 	border: none;
-	width: 150px;
-	height: 150px;
+	width: 80px;
+	height: 80px;
 	background: #00FF00;
 	margin-top: 20px
 	
@@ -146,7 +145,7 @@ span{
 
    #body{
 
-   	width:100%;
+   	width:80%;
    }
    
 
