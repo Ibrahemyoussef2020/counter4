@@ -23,8 +23,8 @@ body, * {
 
 
 	
-	width:100%;
-	min-width: 400px;
+	
+	
 	background: #080;
 	margin:0px auto;
 	padding: 10px;
@@ -153,7 +153,7 @@ span{
 
    #body{
 
-   	width: 92%
+   	width:95%;
    }
 
 }
@@ -166,8 +166,8 @@ span{
 
   #bot{
 
-   	   height:100px;
-	   width: 100px;
+   	   height:120px;
+	   width: 120px;
    }
 
     button{
