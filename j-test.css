@@ -14,6 +14,7 @@ body, * {
 	box-sizing: border-box;
 	-o-box-sizing:border-box;
 	-moz-box-sizing:border-box;
+	
 }
 
 
@@ -73,7 +74,6 @@ body, * {
 	padding-left: 10px; 
 	min-width: 110px;
 	font-size: 5.5rem;
-
 	font-weight: 900;
 	text-align: center;
 	
@@ -128,7 +128,7 @@ button{
 	width: 150px;
 	height: 150px;
 	background: #00FF00;
-	margin-top: 10px
+	margin-top: 20px
 	
 }
 
