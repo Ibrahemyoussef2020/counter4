@@ -32,7 +32,7 @@ body, * {
 	border-bottom-right-radius: 50%;
 	border-top-left-radius: 80px;
 	border-top-right-radius: 80px;
-	margin-top: 20px;
+	margin-top: 200px;
 
 	
 
@@ -73,7 +73,7 @@ body, * {
 	padding-left: 10px; 
 	min-width: 110px;
 	font-size: 5.5rem;
-	line-height: 5.5rem;
+
 	font-weight: 900;
 	text-align: center;
 	
