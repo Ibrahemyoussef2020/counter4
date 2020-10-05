@@ -33,7 +33,7 @@ body, * {
 	border-top-left-radius: 80px;
 	border-top-right-radius: 80px;
 	height: 80vh;
-	margin-top: 200px;
+	margin-top: 20px;
 
 	
 
@@ -71,11 +71,10 @@ body, * {
 	display: block;
 	background: #eee;
 	width: 90%;
-	height: 60px;
 	padding-left: 10px; 
 	min-width: 110px;
-	font-size: 3.5rem;
-	line-height: 3.5rem;
+	font-size: 5.5rem;
+	line-height: 5.5rem;
 	font-weight: 900;
 	text-align: center;
 	
@@ -93,6 +92,7 @@ body, * {
 	padding-right: 0;
 	color: #fff;
 	font-weight: 900;
+	font-size: 50px;
 
 }
 
@@ -129,7 +129,7 @@ button{
 	width: 150px;
 	height: 150px;
 	background: #00FF00;
-	margin-top: 5px
+	margin-top: 10px
 	
 }
 
