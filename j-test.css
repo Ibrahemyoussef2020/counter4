@@ -110,8 +110,8 @@ body, * {
     
     
 	display: block;
-	height:150px;
-	width: 150px;
+	height:400px;
+	width: 400px;
 	min-width: 60px;
 	min-height: 60px;
 	background: #fff;	
@@ -147,8 +147,8 @@ span{
  
    #bot{
 
-   	   height:250px;
-	   width: 250px;
+   	   height:400px;
+	   width: 400px;
    }
 
    #body{
@@ -159,30 +159,12 @@ span{
 
     button{
        
-       width: 80px;
-	  height: 80px;
+       width: 150px;
+	  height: 150px;
    }
 }
 
 
-
-@media only screen and (max-width:470px) {
- 
- 
-
-  #bot{
-
-   	   height:200px;
-	   width: 200px;
-   }
-
-    button{
-       
-       width: 80px;
-	  height: 80px;
-   }
-
-}
 
 
 
