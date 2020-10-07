@@ -1,66 +1,61 @@
-body{
 
-	background: #ddd;
-	
-	
-
-
-
-}
-
-body, * {
-
-	
-	box-sizing: border-box;
-	-o-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	
+html,
+body {
+  
+  height: 100%;
+  box-sizing: border-box;
+  
 }
 
 
-
-
-#body{
-
+ body * {
 
 	
+	box-sizing: inherit;
+	-o-box-sizing:inherit;
+	-moz-box-sizing:inherit;
 	
-	width: 50%;
+}
+
+
+.grand-parent {
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.parent{
+
+	width: 70%;
+	max-width: 300px;
+	max-height: 400px;
 	background: #080;
-	margin:0px auto;
 	padding: 10px;
 	border-bottom-left-radius: 50%;
 	border-bottom-right-radius: 50%;
-	border-top-left-radius: 80px;
-	border-top-right-radius: 80px;
-	margin-top: 50px;
-
+	border-top-left-radius:17%;
+	border-top-right-radius: 17%;
 	
-
-	
-
 
 }
 
 
-.sun{
-    
+.child{
     display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	padding: 20px;
+    flex-direction: column;
+	padding: 15px;
 	background: #000;
 	border-bottom-left-radius: 50%;
 	border-bottom-right-radius: 50%;
-	border-top-left-radius: 80px;
-	border-top-right-radius: 80px;
+	border-top-left-radius: 17%;
+	border-top-right-radius: 17%;
 	width: 100%;
-	
-
-	
-
-    
+	height: 100%;
+	max-height: 370px;
+	    
 }
 
 
@@ -69,15 +64,13 @@ body, * {
     
 	display: block;
 	background: #eee;
-	width: 90%;
-	padding-left: 10px; 
-	min-width: 110px;
-	font-size: 3.5rem;
+	width: 97%;
+	font-size: 3rem;
 	font-weight: 900;
 	text-align: center;
-	
-
-	
+	margin-left:  auto;
+	margin-right:  auto;
+		
 }
 
 .container{
@@ -85,164 +78,78 @@ body, * {
     display: flex;
     justify-content: space-between;
     width: 100%;
-	min-width: 130px;
-	padding: 5px 0 5px 0;
 	color: #fff;
 	font-weight: 900;
-	font-size: 25px;
+	font-size: 13px;
 	margin-top: -45px;
+	padding: 5px 7px 5px 7px; 
+	
 
 }
 
-   .sp{
+.container section{
 
-  	text-align: right;
+	width: 10%;
+	min-width: 30px;
+	min-height: 30px;
+	max-height: 40px;
+}
+
+  .container section:frist-child{
+
+  	text-align: left;
   
   }
+
 
 
 
  
 
 
-#bot{
+.bot{
     
     
 	display: block;
-	height:150px;
-	width: 150px;
+	height:15vh;
+	width: 40%;
+	max-width: 60px;
+	max-height: 60px;
 	background: #fff;	
 	border-radius:100% ;
 	background: #00FF00;
+	border: none;
+	margin: 0 auto;
+
 
 
 	
 }
 
-button{
+button:not(.bot){
 
 
 	border-radius: 100%;
 	border: none;
-	width: 80px;
-	height: 80px;
+	width: 100%;
+	height: 100%;
 	background: #00FF00;
+	min-width: 30px;
+	min-height: 30px;
+	max-height: 40px;
+	margin-top: 5px
 	
 	
 }
 
 
-
-
-
-
-/*****************************************************/
-
-@media only screen and (max-width: 770px) {
- 
-
-   #body{
-
-   	width:90%;
-   }
-   
-
-}
-
-@media only screen and (max-width:370px) {
-
-
-  #bot{
-    
-    
-	display: block;
-	height:120px;
-	width: 120px;
-
-
-}
-
-button{
-
-	width: 60px;
-	height: 60px;
-}
-
-
-   .container{
-
-   	padding-right: 0px;
-   	padding-left: 0px;
-   	font-size: 22px
-   }
-
-
-   
-   
-   .sp{
-
-  	text-align: right;
-  
-  }
-
-
-
-}  
-
-
-@media only screen and (max-width:370px) {
-
-
-  #bot{
-    
-    
-	display: block;
-	height:100px;
-	width: 100px;
-
-
-}
-
-button{
-
-	width: 50px;
-	height: 50px;
-}
-
-
-   .container{
-
-   	padding-right: 0px;
-   	padding-left: 0px;
-   	font-size: 17px;
-
-   }
-
-
-   
-   
-   .sp{
-
-  	text-align: right;
-  
-  }
-
-
-
-} 
-
-/*************************/
 .dark-mode {
   background-color: black;
   
 }
 
-span:not(#bot) {
 
-	display: block;
-	margin-bottom: 5px;
 
-}
 
 
 
