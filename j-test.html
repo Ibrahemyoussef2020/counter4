@@ -11,20 +11,20 @@
 </head>
 <body>
   <section class="grand-parent">  
-   <div class="parent">
- 	    <div class="child"> 
-            <p  class="screen" id="screen"></p>
+   <div class="parent" id="parent" >
+ 	    <div class="child" > 
+            <p  class="screen" id="screen">0</p>
             <div class="container">
-                <section>
+                <div>
                     <span>RESET</span>	
-    	            <button onclick="restart()" ></button>
-                </section>
-                <section>
+    	            <button  id="restart" ></button>
+                </div>
+                <div>
     	            <span class>LED</span>	
-    	            <button onclick="background()" ></button>
-                </section>          
+    	            <button  id="background" ></button>
+                </div>          
             </div>
-            <button class="bot" onclick="collect()"></button>
+            <button class="bot"  id="collect"></button>
         </div>
     </div>
   </section>  
